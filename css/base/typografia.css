@@ -1,0 +1,26 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto Mono", sans-serif;
+    color: var(--titles);
+}
+
+h3,h4,h5,h6{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+h1{
+    font-size: 3.5rem;
+    padding: 1rem 0;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+p{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.2rem;
+    color: var(--text);
+    padding: 1rem 0;
+}

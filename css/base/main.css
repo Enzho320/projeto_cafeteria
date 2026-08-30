@@ -1,0 +1,763 @@
+@import "reset.css";
+@import "variables.css";
+@import "tipografia.css";
+
+
+/* ROLAGEM SUAVE */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* FUNDO */
+
+body{
+    margin: 0;
+
+    background-color: #008080;
+
+    color: #000000;
+}
+
+
+/* PAGINA */
+
+.pagina{
+    width: 900px;
+
+    margin: 20px auto;
+
+    background-color: #ffffff;
+}
+
+
+/* ==================== */
+/* TOPO */
+/* ==================== */
+
+header{
+    width: 100%;
+
+    background-color: #ffffff;
+
+    border-bottom: 1px solid #999999;
+}
+
+
+.topo{
+    min-height: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+
+/* LOGO */
+
+.logo{
+    width: 90px;
+
+    text-align: center;
+}
+
+
+.logo img{
+    width: 80px;
+
+    height: auto;
+}
+
+
+/* NOME */
+
+.nome{
+    margin-left: 15px;
+}
+
+
+.nome h1{
+    font-family: "Times New Roman", serif;
+
+    font-size: 34px;
+
+    color: #4b260e;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+.nome p{
+    font-family: "Times New Roman", serif;
+
+    font-size: 16px;
+
+    color: #000000;
+
+    padding: 5px 0;
+
+    margin: 0;
+}
+
+
+.welcome-top{
+    width: 90px;
+
+    height: auto;
+}
+
+
+/* GIF CAFÉ */
+
+.cafe-top{
+    margin-left: auto;
+
+    margin-right: 40px;
+}
+
+
+.cafe-top img{
+    width: 90px;
+
+    height: auto;
+}
+
+
+/* ==================== */
+/* ESTRUTURA PRINCIPAL */
+/* ==================== */
+
+.site{
+    width: 100%;
+
+    display: flex;
+
+    align-items: stretch;
+}
+
+
+/* ==================== */
+/* MENU LATERAL */
+/* ==================== */
+
+aside{
+    width: 170px;
+
+    background-color: #8888e8;
+
+    padding: 15px 10px;
+
+    box-sizing: border-box;
+}
+
+
+aside nav{
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+aside nav a{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 42px;
+
+    padding: 5px;
+
+    background-color: #eeeeee;
+
+    color: #000080;
+
+    font-family: "Times New Roman", serif;
+
+    font-size: 16px;
+
+    text-align: center;
+
+    border: 2px solid white;
+
+    border-right-color: #555555;
+
+    border-bottom-color: #555555;
+}
+
+
+aside nav a:hover{
+    background-color: #ffffff;
+}
+
+
+/* CONTADOR */
+
+.contador{
+    margin-top: 35px;
+
+    text-align: center;
+}
+
+
+.contador p{
+    font-family: "Times New Roman", serif;
+
+    font-size: 14px;
+
+    color: #000000;
+
+    padding: 5px 0;
+}
+
+
+.contador strong{
+    display: inline-block;
+
+    background-color: #000000;
+
+    color: #00ff00;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+
+    padding: 4px 7px;
+
+    border: 2px inset #aaaaaa;
+}
+
+
+/* DECORAÇÃO LATERAL */
+
+.lateral-gif{
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
+.lateral-gif img{
+    max-width: 80px;
+
+    height: auto;
+}
+
+
+.lateral-gif p{
+    font-family: "Times New Roman", serif;
+
+    font-size: 14px;
+
+    color: #000000;
+
+    padding: 5px 0;
+}
+
+
+.botao{
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+
+.botao img{
+    max-width: 110px;
+
+    height: auto;
+}
+
+
+/* ==================== */
+/* CONTEÚDO PRINCIPAL */
+/* ==================== */
+
+main{
+    width: 730px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background-color: #ffffff;
+}
+
+
+/* TÍTULO */
+
+.titulo{
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.titulo img{
+    width: 75px;
+
+    height: auto;
+}
+
+
+.titulo h2{
+    font-family: "Times New Roman", serif;
+
+    font-size: 24px;
+
+    color: #000080;
+
+    padding: 0;
+}
+
+
+/* TEXTOS */
+
+main p{
+    font-family: "Times New Roman", serif;
+
+    font-size: 16px;
+
+    line-height: 1.2;
+
+    color: #000000;
+
+    padding: 5px 0;
+}
+
+
+/* LINHAS */
+
+main hr{
+    margin: 20px 0;
+
+    border: 0;
+
+    border-top: 1px solid #999999;
+}
+
+
+/* TÍTULOS */
+
+main h3{
+    font-family: "Times New Roman", serif;
+
+    font-size: 20px;
+
+    color: #4b260e;
+
+    padding: 8px 0;
+}
+
+
+main h4{
+    font-family: "Times New Roman", serif;
+
+    font-size: 17px;
+
+    padding: 5px 0;
+}
+
+
+/* GIF NEW */
+
+.new{
+    width: 45px;
+
+    height: auto;
+
+    vertical-align: middle;
+
+    margin-left: 5px;
+}
+
+
+/* ==================== */
+/* PRODUTOS */
+/* ==================== */
+
+.produtos{
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+
+/* QUADRADINHOS DOS PRODUTOS */
+
+.produto{
+    width: 30%;
+
+    min-height: 250px;
+
+    background-color: #eeeeee;
+
+    border: 3px outset #ffffff;
+
+    box-shadow: 2px 2px 0 #666666;
+
+    text-align: center;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+
+/* IMAGEM DO PRODUTO */
+
+.produto img{
+    width: 110px;
+
+    height: 100px;
+
+    object-fit: contain;
+
+    margin-bottom: 5px;
+}
+
+
+/* NOME */
+
+.produto h4{
+    color: #000080;
+
+    font-size: 17px;
+
+    margin: 0;
+}
+
+
+/* DESCRIÇÃO */
+
+.produto p{
+    font-size: 14px;
+
+    min-height: 45px;
+}
+
+
+/* PREÇO */
+
+.produto strong{
+    display: inline-block;
+
+    margin-top: 8px;
+
+    padding: 4px 8px;
+
+    background-color: #000080;
+
+    color: #ffffff;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+
+    border: 2px inset #ffffff;
+}
+
+
+/* ==================== */
+/* ESTABELECIMENTO */
+/* ==================== */
+
+.decoracao{
+    width: 100%;
+
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+
+.decoracao img{
+    max-width: 400px;
+
+    height: auto;
+}
+
+
+/* LOCALIZAÇÃO */
+
+.localizacao{
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background-color: #eeeeee;
+
+    border: 3px inset #aaaaaa;
+
+    text-align: center;
+}
+
+
+.localizacao h4{
+    color: #000080;
+}
+
+
+.localizacao h4 img{
+    width: 30px;
+
+    vertical-align: middle;
+}
+
+
+/* ==================== */
+/* DEPOIMENTOS */
+/* ==================== */
+
+.mensagem-forum{
+    background-color: #eeeeee;
+
+    border: 2px solid #808080;
+
+    margin: 15px 0;
+}
+
+
+.forum-topo{
+    background-color: #000080;
+
+    color: #ffffff;
+
+    padding: 6px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.forum-topo span{
+    font-size: 11px;
+
+    font-weight: normal;
+}
+
+
+.mensagem-forum p{
+    padding: 10px;
+}
+
+
+/* ==================== */
+/* FORMULÁRIO */
+/* ==================== */
+
+.guestbook{
+    background-color: #c0c0c0;
+
+    border: 3px outset #ffffff;
+
+    padding: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.guestbook label{
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+.guestbook input,
+.guestbook textarea{
+    font-family: Arial, sans-serif;
+
+    padding: 7px;
+
+    border: 2px inset #ffffff;
+
+    resize: vertical;
+}
+
+
+.guestbook textarea{
+    height: 80px;
+}
+
+
+.guestbook button{
+    padding: 10px;
+
+    background-color: #eeeeee;
+
+    border: 3px outset #ffffff;
+
+    font-family: Arial, sans-serif;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.guestbook button:active{
+    border-style: inset;
+}
+
+
+/* ==================== */
+/* RODAPÉ */
+/* ==================== */
+
+footer{
+    width: 100%;
+
+    background-color: #ffffff;
+
+    text-align: center;
+
+    padding: 5px 0 20px 0;
+}
+
+
+footer hr{
+    border: 0;
+
+    border-top: 1px solid #999999;
+}
+
+
+footer p{
+    font-family: "Times New Roman", serif;
+
+    font-size: 14px;
+
+    color: #000000;
+
+    padding: 5px 0;
+}
+
+
+footer a{
+    color: #0000ee;
+
+    text-decoration: underline;
+}
+
+
+/* ESTRELAS */
+
+.estrelas{
+    margin: 5px 0;
+}
+
+
+.estrelas img{
+    width: 30px;
+
+    height: auto;
+
+    margin: 0 3px;
+}
+
+
+/* ==================== */
+/* RESPONSIVO */
+/* ==================== */
+
+@media(max-width: 920px){
+
+    .pagina{
+        width: 95%;
+    }
+
+}
+
+
+@media(max-width: 700px){
+
+    .site{
+        flex-direction: column;
+    }
+
+
+    aside{
+        width: 100%;
+    }
+
+
+    aside nav{
+        flex-direction: row;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+
+    aside nav a{
+        width: 150px;
+    }
+
+
+    main{
+        width: 100%;
+    }
+
+
+    .produtos{
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    .produto{
+        width: 250px;
+    }
+
+
+    .topo{
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        text-align: center;
+    }
+
+
+    .nome{
+        margin: 10px;
+    }
+
+
+    .cafe-top{
+        margin: 10px;
+    }
+
+}
